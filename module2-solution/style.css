@@ -1,0 +1,88 @@
+/* Style declaration for Coursera HTML CSS JS Module assignment 2 week */
+
+/*General default style */
+* { 
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Arial";
+	font-size: 16px }
+
+h1 {
+	font-size:1.75em;
+	text-align:center;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+
+p {
+	text-align: justify;
+}
+
+.title-submenu {
+	font-size: 1.25em;
+	width:40%;
+	border-left:2px solid #888888;
+	border-bottom:2px solid #888888;
+	margin-bottom: 20px;
+	position:relative;
+	top:0px;
+	left:60%;
+	text-align:center;
+
+}
+
+.submenu {
+	border: 2px solid #888888;
+	border-radius:5px;
+	margin-bottom:20px;
+	position:relative;
+	margin-left:5px;
+	margin-right:5px;
+	background-color: #dddddd;
+}
+
+.submenu p {
+	margin-bottom:20px;
+	padding-left:20px;
+	padding-right:20px;
+ }
+
+
+#chicken p.title-submenu {
+	background-color: #f76d08;
+}
+
+#beef p.title-submenu {
+	background-color: #f899ed;
+}
+
+#sushi p.title-submenu {
+	background-color: #9cf9dd;
+}
+
+/*Media query for desktop */
+@media (min-width: 992px){
+ 	.col-desktop-4 {
+ 		float:left;
+ 		margin-left: 5%;
+ 		width:26.66%;
+ 	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	
+	.col-tablet-6 {
+		float:left;
+		margin-left:5%;
+		width:42.5%;
+	}
+
+	.col-tablet-1 {
+		clear:left;
+		margin-top: 5%;
+		width:90%;
+		margin-left:5%;
+	}
+}
