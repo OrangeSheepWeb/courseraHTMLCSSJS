@@ -1,4 +1,12 @@
 /*Navigation backgroung*/
+#center-content {
+	margin:0px 15px 0px 15px;
+}
+
+#center-content h2{
+	margin-bottom:2.5%;
+}
+
 .navbar {
 	border-radius:0px;
 }
@@ -34,6 +42,10 @@ ul.navbar-nav {
 #chicken, #beef, #sushi {
 	background-color: #64e7b9;
 	margin-bottom:2.5%;
+}
+
+#chicken p, #beef p, #sushi p {
+	padding:10px 20px 10px 20px;
 }
 
 
