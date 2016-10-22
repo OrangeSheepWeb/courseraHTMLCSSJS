@@ -1,0 +1,39 @@
+/*Navigation backgroung*/
+.navbar {
+	border-radius:0px;
+}
+
+ul.navbar-nav {
+	margin-top:0px;
+	margin-bottom:0px;
+	background-color:#aaaaaa;
+}
+.navbar-nav li:hover{
+	background-color: rgba(255,0,0,0.4);
+}
+
+.navbar-default .navbar-nav li a:hover {
+	color:#ffffff;
+}
+
+.navbar-default .navbar-nav li a {
+	color:#000000;
+}
+
+.navbar-nav li {
+	border-bottom:1px solid rgba(255,255,255,0.7);
+	color:#ffffff;
+	font-weight:600;
+}
+
+/*Brand Styling */
+.navbar-brand h1 {
+	margin-top:-10px;
+}
+
+#chicken, #beef, #sushi {
+	background-color: #64e7b9;
+	margin-bottom:2.5%;
+}
+
+
