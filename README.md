@@ -1,2 +1,2 @@
 # courseraHTMLCSSJS
-Repository corso full-stack developer coursera
+Repository for the full-stack developer course at coursera
